@@ -1,0 +1,180 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 9,
+    "max_score": 6.80228,
+    "hits": [
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "pBS0RGMBDsJNMGTNJUX-",
+        "_score": 6.80228,
+        "_source": {
+          "question": "Jag har under n\u00e5gra m\u00e5nader haft ett \u00e4rende om sjukpenning liggande hos F\u00f6rs\u00e4kringskassan. Jag bytte arbete och fick en timanst\u00e4llning som skulle \u00f6verg\u00e5 till fast tj\u00e4nst men jag blev sjukskriven under tiden och n\u00e4r arbetsgivaren bed\u00f6mde att jag inte skulle kunna komma tillbaka det n\u00e4rmsta \u00e5ret s\u00e5 blev det inget med den utlovade tillsvidareanst\u00e4llningen. Det har tagit v\u00e4ldigt l\u00e5ng tid att besluta om SGI och min r\u00e4tt till sjukpenning. Facket har varit inkopplade och till sist har arbetsgivaren tillk\u00e4nnagjort sina misstag vilket gjort att F\u00f6rs\u00e4kringskassan \u00e4ntligen kunde besluta om SGI. Min SGI s\u00e4nktes fr\u00e5n 269700 kr till 245100 kr men jag \u00e4r i alla fall tacksam \u00f6ver att den inte blev 0 d\u00e5 jag gjort allt r\u00e4tt. Nu ringde handl\u00e4ggaren och meddelade att jag kommer att f\u00e5 sjukpenning utbetald men att hon beh\u00f6ver f\u00e5 hj\u00e4lp av en kollega att koda om en del felaktiga uppgifter fr\u00e5n arbetsgivaren (tex datum d\u00e5 jag blev sjuk och de har inte betalat sjukl\u00f6n som de tidigare har angett till FK). Jag fr\u00e5gade hur mycket jag skulle f\u00e5 utbetalt retroaktivt f\u00f6r de m\u00e5nader jag v\u00e4ntat men hon kunde inte svara p\u00e5 det f\u00f6rst alla koder l\u00e5g r\u00e4tt i systemet. Hon sa i alla fall att om man var vid behovsanst\u00e4lld/timanst\u00e4lld blir ers\u00e4ttningen l\u00e4gre d\u00e5 man bed\u00f6ms mot hela arbetsmarknaden \u00e4ven om jag var schemalagd att arbeta och l\u00e4karintyg fastst\u00e4ller att jag inte \u00e4r aktuell f\u00f6r n\u00e5got arbete p\u00e5 arbetsmarknaden under den h\u00e4r perioden. Jag hade ju r\u00e4knat med en sjukpenning baserad p\u00e5 SGI men det f\u00e5r jag tydligen inte d\u00e5. Hur mycket l\u00e4gre sjukpenning f\u00e5r man som arbetss\u00f6kande? Jag kommer att f\u00e5 utbetalningen den h\u00e4r veckan men vill g\u00e4rna ha n\u00e5gra ungef\u00e4rliga siffror att g\u00e5 efter. N\u00e5gon som vet?",
+          "answers": [
+            "Man brukar f\u00e5 samma som man hade kunnat f\u00e5 av a-kassan om man hade st\u00e4mplat. Aldrig \u00f6ver den niv\u00e5n.",
+            "Jag fick ett till samtal fr\u00e5n FK. Det blir ca 1000 kr mindre i m\u00e5naden pga anst\u00e4llningsformen. Spelar ingen som helst roll att jag var schemalagd i tv\u00e5 m\u00e5nader efter. Icke s\u00e5 f\u00f6rm\u00e5nlig f\u00f6rs\u00e4kring allts\u00e5. Aldrig aldrig mer att jag t\u00e4nker skriva p\u00e5 n\u00e5got annat \u00e4n tills vidare n\u00e4r det kommer till jobb.",
+            "Du kan alltid beg\u00e4ra ompr\u00f6vning av beslutet. Det \u00e4r sv\u00e5rt med SGI och just timsanst\u00e4llningar s\u00e5 det kan vara bra med en till pr\u00f6vning.",
+            "R\u00e5der dig att ta strid mot din fd arbetsgivare ang\u00e5ende sjukl\u00f6nen. Den som \u00e4r behovsanst\u00e4lld och f\u00e5r sjukl\u00f6n bed\u00f6ms, efter sjukl\u00f6neperioden, som anst\u00e4lld s\u00e5 l\u00e4nge det finns inbokat arbete.",
+            "Som arbetsl\u00f6s f\u00e5r man max 543 kr per dag. Som anst\u00e4lld max 709 kr per dag vimla.se/"
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/77131301-sjukpenning-vid-behovsanstallning"
+        }
+      },
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "yhS0RGMBDsJNMGTNJUb_",
+        "_score": 6.471067,
+        "_source": {
+          "question": "Har heltidstj\u00e4nst. Har reducerat till 80% d\u00e5 jag \u00e4r hemma med tv\u00e5\u00e5ring 20%. Tj\u00e4nstledig fp heter de kanske? \u00c4r nu sjukskriven 100% och kan inte ta hand om mitt barn. Ska jag s\u00f6ka sjukpenning 100 eller 80%",
+          "answers": [
+            "Du sjukskriver dig till arbetet o f\u00f6rs\u00e4kringskassan o n\u00e5n annan m\u00e5ste ta hand om barnet 20%",
+            "Arbetet betalar sjukl\u00f6n f\u00f6r dina 80% f\u00f6rsta tv\u00e5 veckorna , f\u00f6rs\u00e4kringskassan betalar sjukpenning 20% . Karensdag dag 1 fr\u00e5n b\u00e5da . Efter 2 v \u00e4r det f\u00f6rs\u00e4kringskassan som betalar sjukpenning 100%",
+            "Tack! Barnet har nu f\u00f6rskola heltid (den tiden pappan jobbar) under sjukskrivningsperioden"
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/76993704-kunna-inom-fk-se-hit"
+        }
+      },
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "CRS0RGMBDsJNMGTNJUb-",
+        "_score": 5.1230707,
+        "_source": {
+          "question": "Hej, Skulle i somras haft semester med min sambo men fick st\u00e4lla in denna p\u00e5 grund av sjukdom. I samband med att vi st\u00e4llde in denna s\u00e5 best\u00e4mde vi oss f\u00f6r att k\u00f6pa en resa utomlands till vintern ist\u00e4llet, troligtvis till Teneriffa. Nu \u00e4r det s\u00e5 att jag \u00e4r inskriven hos arbetsf\u00f6rmedlingen och arbetss\u00f6kande p\u00e5 50% och sjukskriven 50 % p\u00e5 grund av psykisk oh\u00e4lsa och ledbesv\u00e4r. F\u00f6r att g\u00f6ra r\u00e4tt f\u00f6r mig m\u00e5ste jag avanm\u00e4la mig som arbetss\u00f6kande hos arbetsf\u00f6rmedlingen f\u00f6r perioden d\u00e5 vi \u00e4r borta, dvs 4 veckor och tre dagar. G\u00f6r jag s\u00e5 h\u00e4r vet jag att det inte orsakar problem med A-kassan eller arbetsf\u00f6rmedlingen. Fr\u00e5gan \u00e4r dock, kan jag erh\u00e5lla 50% sjukpenning om jag gjort uppeh\u00e5ll fr\u00e5n arbetss\u00f6kandet? M\u00e5ste man inte vara aktivt jobbs\u00f6kande f\u00f6r att f\u00e5 sjukpenning? Fr\u00e5ga tv\u00e5 blir, vet att det inte f\u00e5r bli uppeh\u00e5ll mellan perioder med sjukskrivning, arbetss\u00f6kande, jobb osv. Nu blir det just ett uppeh\u00e5ll i arbetss\u00f6kande p\u00e5 4 veckor och tre dagar. Kommer detta d\u00e5 inneb\u00e4ra att jag blir av med min SGI ( sjukpenninggrundande inkomst)? Jag tidigare inte haft n\u00e5got uppeh\u00e5ll i perioden.",
+          "answers": [
+            "Till a-kassan kan du v\u00e4l skriva Semester p\u00e5 st\u00e4mpelkortet?\u00a0 F\u00f6r att resa utomlands som sjukskriven beh\u00f6ver du tillst\u00e5nd fr\u00e5n FK.\u00a0",
+            "Du skriver inte ut dig fr\u00e5n arbetsf\u00f6rmedlingen f\u00f6r att ha semester! Du meddelar bara att du ska ha semester och fyller i semester p\u00e5 kassakorten till a-kassan. Sjukpenning kan du f\u00e5 om f\u00f6rs\u00e4kringskassan godk\u00e4nner det. Vilket absolut inte \u00e4r om\u00f6jligt n\u00e4r det g\u00e4ller psykisk oh\u00e4lsa.",
+            "www.forsakringskassan.se/sjukvard/sjukskrivning_och_sjukpenning/sjukskrivning_under_semester_eller_utlandsresa"
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/77111632-arbetslos-sjukskriven-och-vill-ha-semester"
+        }
+      },
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "vxS0RGMBDsJNMGTNJUT8",
+        "_score": 4.9124327,
+        "_source": {
+          "question": "Hej! Jag \u00e4r anst\u00e4lld p\u00e5 ett f\u00f6retag en g\u00e5ng i veckan (varje l\u00f6rdag). Men har varit sjukskriven i och med en olycka som h\u00e4nde i b\u00f6rjan av \u00e5ret. Eftersom det \u00e4r f\u00f6rsta g\u00e5ngen jag har varit sjukskriven fr\u00e5n ett jobb mer \u00e4n ett par dagar s\u00e5 har jag n\u00e5gra fr\u00e5gor ang. Sjukl\u00f6n och sjukpenning. 1. Den f\u00f6rsta l\u00f6rdagen (7 januari) var ju karensdag och de p\u00e5 f\u00f6ljande l\u00f6rdagarna (14 & 21) betalas sjukl\u00f6n ut som jag har f\u00f6rst\u00e5tt det. Hur mycket \u00e4r sjukl\u00f6nen p\u00e5 om min nettol\u00f6n varje arbetsdag \u00e4r 1000 kr (inkl ob, semesterers\u00e4ttning)? 2. Nu n\u00e4r 2 veckor har g\u00e5tt s\u00e5 \u00e4r det v\u00e4ll f\u00f6rs\u00e4kringskassan som betalar min sjukpenning? 3. M\u00e5ste jag kontakta dom eller g\u00f6r arbetsgivaren det? \u00c4r det n\u00e5got jag som arbetare ska g\u00f6ra? 4. Hur h\u00f6g \u00e4r sjukpenningen j\u00e4mf\u00f6rt med sjukl\u00f6nen? Tack p\u00e5 f\u00f6rhand ?",
+          "answers": [
+            "F\u00f6rs\u00e4kringskassan betalar fr\u00e5n dag 15 , arbetsgivaren ska anm\u00e4la till dom att du \u00e4r sjuk sen ska du ans\u00f6ka om sjukpenning fr\u00e5n FK . Sjukl\u00f6n o sjukpenning \u00e4r ca 80% av din inkomst",
+            "Om 7/1 \u00e4r dag 1 s\u00e5 \u00e4r 21/1 dag 15. Allts\u00e5 ska FK betala fr\u00e5n 21:a. Keruben lyser av intelligensens prakt - Giovanni Pico della Mirandola"
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/77348393-fragor-ang-sjuklon-och-sjukpenning"
+        }
+      },
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "-hS0RGMBDsJNMGTNJUX-",
+        "_score": 4.7983,
+        "_source": {
+          "question": "Jag l\u00f6nev\u00e4xlar nu, avs\u00e4tter 2000kr f\u00f6re skatt av min l\u00f6n till pension. Som jag f\u00f6rst\u00e5r s\u00e5 har man en l\u00f6n p\u00e5 under ca 39 000 kr s\u00e5 ska man inte l\u00f6nev\u00e4xla.\u00a0 Nu funderar jag p\u00e5 att vara f\u00f6r\u00e4ldraledig tv\u00e5 dagar i m\u00e5naden, vilket skulle s\u00e4nka mig l\u00f6n till under 39 000kr.\u00a0 Men om jag tar f\u00f6r\u00e4ldraledig 2 dagar i m\u00e5naden, r\u00e4knas den inkomsten in i den gr\u00e4nsen p\u00e5 39 000 kr? Allts\u00e5 kan jag forts\u00e4tta l\u00f6nev\u00e4xla (utan att f\u00f6rlora p\u00e5 pension, sjukpenning osv) om jag f\u00e5r l\u00f6n+f\u00f6r\u00e4ldrapenning? N\u00e5gon som vet?\u00a0",
+          "answers": [
+            "Det \u00e4r din beskattningsbara inkomst som ska vara minst 39'. S\u00e5 om din nya l\u00f6n och f\u00f6r\u00e4ldrapenning tillsammans blir 39' s\u00e5 kan du forts\u00e4tta l\u00f6nev\u00e4xla.",
+            "Enligt Alectas hemsida \u00e4r gr\u00e4nsen 39 879 kr, allts\u00e5 n\u00e4stan 40 tkr.\u00a0 Keruben lyser av intelligensens prakt - Giovanni Pico della Mirandola",
+            "Jag s\u00e5g det efter jag gjort tr\u00e5den. Jag hade tittat p\u00e5 f\u00f6rra \u00e5rets siffor. Men fr\u00e5gan var ju detsamma.\u00a0 Tack f\u00f6r svar!"
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/77115820-lonevaxla-och-foraldraledig"
+        }
+      },
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "6BS0RGMBDsJNMGTNJUX-",
+        "_score": 4.5160623,
+        "_source": {
+          "question": "Jag \u00e4r f\u00f6rs\u00e4krad hos Folksam genom jobbet. H\u00f6rde att jag kan f\u00e5 pengar av f\u00f6rs\u00e4kringen om jag blir sjukskriven. Hur mycket f\u00e5r man d\u00e5? Och \u00e4r det en enda klumpsumma? Jag \u00e4r gravid och har ett tungt jobb s\u00e5 k\u00e4nns som att det bara \u00e4r en tidsfr\u00e5ga innan jag blir sjukskriven. Men sjukpenning \u00e4r ju inte riktigt samma sak som en l\u00f6n. Lite extra fr\u00e5n f\u00f6rs\u00e4kringen skulle underl\u00e4tta.",
+          "answers": [
+            "Du f\u00e5r kolla med din arbetsgivare om f\u00f6rs\u00e4kringens utformning.\u00a0 Keruben lyser av intelligensens prakt - Giovanni Pico della Mirandola",
+            "Du f\u00e5r l\u00e4sa f\u00f6rs\u00e4kringsvillkoren. N\u00e4r jag var sjukskriven p\u00e5 grund av att jag fick en sjukdom s\u00e5 fick jag inte pengar fr\u00e5n den f\u00f6rr\u00e4n jag varit sjukskriven i minst sex m\u00e5nader d\u00e5 fick jag det fr\u00e5n och med det datumet. Om du blir sjukskriven enbart p\u00e5 grund av att du \u00e4r gravid och inte klarar ditt jobb s\u00e5 \u00e4r det inte s\u00e4kert att det utg\u00e5r n\u00e5got fr\u00e5n den f\u00f6rs\u00e4kringen. Sen beror det ju p\u00e5 om det \u00e4r en olycksfallsf\u00f6rs\u00e4kring eller sjukf\u00f6rs\u00e4kring du har genom jobbet eller om det \u00e4r n\u00e5gon annan typ av f\u00f6rs\u00e4kring. S\u00e5 din fr\u00e5ga \u00e4r om\u00f6jlig att besvara med s\u00e5 lite info som du har gett i tr\u00e5dstarten. Enda som kan svara s\u00e4kert \u00e4r Folksam vad som g\u00e4ller.",
+            "Jag tror inte heller att det \u00e4r s\u00e5 vanligt att graviditet omfattas av sjukf\u00f6rs\u00e4kringar. Har du ans\u00f6kt om graviditetspenning? Det \u00e4r ju inte meningen att du ska beh\u00f6va jobba s\u00e5 tungt att du blir sjuk av det, det m\u00e5ste chefen se till.",
+            "Brukar vara en mindre ers\u00e4ttning varje m\u00e5n fr\u00e5n dag 91 p\u00e5 sjukskrivningen . Jag fick ca 800kr i m\u00e5n fr\u00e5n dag 91 fr\u00e5n Folksam",
+            "Tror det ligger p\u00e5 upp till 1700/m\u00e5n efter dag 90 iaf om du \u00e4r f\u00f6rs\u00e4krad genom kommunal. Dvs du m\u00e5ste vara sjukskriven minst 3 m\u00e5nader innan du f\u00e5r n\u00e5got p\u00e5 f\u00f6rs\u00e4kringen. Vet inte hur dom resonerar ang\u00e5ende graviditets problematik.",
+            "Det var via kommunal jag fick 800kr i m\u00e5n o sen fick jag 1200kr i m\u00e5n av AFA ox\u00e5 efter dag 90",
+            "Jag \u00e4r med i vision och f\u00e5r 10% av min l\u00f6n fr\u00e5n Alecta efter dag 90 tror jag det \u00e4r oavsett orsak. Blir ungef\u00e4r 4000kr/m\u00e5n efter skatt. H\u00f6r av dig till er HR och fr\u00e5ga om f\u00f6rm\u00e5ner vid sjukskrivning och vid f\u00f6r\u00e4ldrarledighet :)",
+            "www.ersattningskollen.se/ Du kan eventuellt f\u00e5 ut pengar via din tj\u00e4nstepension"
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/77117194-vad-kan-man-fa-av-forsakringen-som-sjukskriven"
+        }
+      },
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "dBS0RGMBDsJNMGTNJUb_",
+        "_score": 4.21764,
+        "_source": {
+          "question": "Jag och min pojkv\u00e4n planerar att flytta ihop d\u00e5 jag b\u00f6rjar studera till sommaren. Han har socialbidrag d\u00e5 han \u00e4r sjukskriven p.g.a krigstrauma (han \u00e4r f\u00f6redetta milit\u00e4r) och vi h\u00e5ller fortfarande p\u00e5 att lista ut om han har r\u00e4tt till sjukpenning ist\u00e4llet. \u00a0 Men n\u00e4r jag l\u00e4ser igenom socialbidragets regler och s\u00e5d\u00e4r s\u00e5 st\u00e5r det att om man \u00e4r sambos s\u00e5 f\u00f6rv\u00e4ntas man hj\u00e4lpa varandra ekonomiskt? Skulle det betyda att det vore billigare f\u00f6r mig (som i att slippa mer studieskulder) om vi bodde is\u00e4r?\u00a0",
+          "answers": [
+            "Svar ja.",
+            "Ja.",
+            "Flytta inte ihop."
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/77045871-bo-isar-billigare-da-en-studerar-och-den-andra-har-socialbidrag"
+        }
+      },
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "7RS0RGMBDsJNMGTNJUP7",
+        "_score": 4.1636634,
+        "_source": {
+          "question": "Hej, jag har blivit sjukskriven tre veckor av min l\u00e4kare heltid och nu p\u00e5 m\u00e5ndag f\u00f6rsvinner min sjukl\u00f6n fr\u00e5n jobbet och det ska g\u00e5 \u00f6ver till FK. K\u00e4nner dock att jag skulle klara av att jobba ett par timmar om dagen de resterande tv\u00e5 veckorna av min sjukskrivning. S\u00e5 om jag och min chef kommer \u00f6verens om att jag ska jobba fem timmar om dagen och sjukskriven resten fast jag skiter i att anm\u00e4la att jag vill ha sjukpenning fr\u00e5n FK (tycker inte det \u00e4r v\u00e4rt besv\u00e4ret f\u00f6r att f\u00e5 deras korv\u00f6ren) s\u00e5 borde det v\u00e4l vara ok? Man M\u00c5STE v\u00e4l inte fylla i n\u00e5t till FK om man inte vill ha pengar fr\u00e5n dem? Jag st\u00e4ller v\u00e4l inte till det f\u00f6r jobbet p\u00e5 n\u00e5t s\u00e4tt?",
+          "answers": [
+            "Nej, du m\u00e5ste inte s\u00f6ka sjukpenning.\u00a0 Keruben lyser av intelligensens prakt - Giovanni Pico della Mirandola",
+            "F\u00f6rutsatt att chefen tycker att det \u00e4r okej att du \u00e4r ledig resten, s\u00e5 \u00e4r det inga problem. Om d\u00e4remot chefen inte vill ge ledigt (utan l\u00f6n) har jag f\u00f6r mig att r\u00e4tten att vara borta fr\u00e5n jobbet \u00e4r avh\u00e4ngt FKs godk\u00e4nnande av sjukpenning.",
+            "Vad menar du med att vara \"ledig\" resten? Jag \u00e4r ju \u00e4nd\u00e5 sjukskriven, bara det att jag skiter i att f\u00e5 ers\u00e4ttning fr\u00e5n FK f\u00f6r det",
+            "Fast det \u00e4r f\u00f6rs\u00e4kringskassan som ska godk\u00e4nna sjukintygen oavsett, s\u00e5 sjukskriven n\u00e5gra timmar om dagen kan du inte vara \u00e4nd\u00e5 fr\u00e5n jobbet. D\u00e5 m\u00e5ste jobbet bevilja dig n\u00e5n annan typ av ledighet.",
+            "Men d\u00e5 blir det ju fel \u00e4nd\u00e5? F\u00f6r de kan ju neka mig ers\u00e4ttning om de inte tycker jag fyller deras krav, vad ska jag d\u00e5 g\u00f6ra med de tre veckor jag varit hemma? Plocka ut det som semester?",
+            "Tills de har tagit beslutet har du r\u00e4tt att vara borta fr\u00e5n jobbet.",
+            "Men man har ju r\u00e4tt att vara sjukskriven om en l\u00e4kare sjukskrivit en utan sjukpenning fr\u00e5n FK.",
+            "N\u00e4r jag var sjukskriven och fr\u00e5gade facket vad som h\u00e4nder om FK inte l\u00e4ngre skulle godk\u00e4nna min sjukskrivning, fick jag svaret att d\u00e5 hade jag inte l\u00e4ngre r\u00e4tt att fr\u00e5nvara fr\u00e5n jobbet. Men det kan ju vara fel...",
+            "Googlade. da.se/2016/09/hemma-utan-ersattning/",
+            "Vid arbetsl\u00f6shet m\u00e5ste man anm\u00e4la sig till AF f\u00f6r att det inte ska skita sig totalt med sgi osv.\u00a0 Men handlar det bara om en vecka, f\u00f6r n\u00e5gon med anst\u00e4llning, s\u00e5 \u00e4r det ingen m\u00e4rkbar skillnad f\u00f6r sgi:n.\u00a0 Keruben lyser av intelligensens prakt - Giovanni Pico della Mirandola"
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/77484122-kan-man-vara-sjukskriven-och-skita-i-sjukpenning"
+        }
+      },
+      {
+        "_index": "familjeliv",
+        "_type": "thread",
+        "_id": "ChS0RGMBDsJNMGTNJUX9",
+        "_score": 3.758849,
+        "_source": {
+          "question": "Hej, Jag beh\u00f6ver lite r\u00e5d och tips s\u00e5 jag kan f\u00f6rst\u00e5 min situation b\u00e4ttre! Kanske n\u00e5gon har varit med om samma? Jag har jobbat som timvikarie p\u00e5 ett \u00e4ldreboende mellan perioden maj 2015-juni 2016 och som timvikarie p\u00e5 ett sjukhus mellan april 2016-augusti 2016. Samtidigt som jag studerat p\u00e5 heltid till undersk\u00f6terska. (Innan jag b\u00f6rjade jobba p\u00e5 \u00e4ldreboendet 2015 studerade jag p\u00e5 folkh\u00f6gskola, d\u00e4rf\u00f6r har jag inte har jobbat den perioden). I juni 2016 fick jag en operationstid f\u00f6r att operera min hand. Jag blev efter operationen sjukskriven i 4 veckor. Jag var d\u00e5 planlagd att jobba 100% p\u00e5 sjukhuset mellan perioden 20 juni 2016 - 6 augusti 2016. Enligt f\u00f6rs\u00e4kringskassan m\u00e5ste man jobbat i minst 6 m\u00e5nader innan sjukskrivningen och tj\u00e4nat minst 10000 under ett \u00e5r f\u00f6r att f\u00e5 r\u00e4tt till sjukpenning (Om jag l\u00e4st det r\u00e4tt). Men \u00e4nd\u00e5 nekar dem mig det? N\u00e5gon som kan hj\u00e4lpa mig f\u00f6rst\u00e5 situationen? J\u00e4tte tacksam f\u00f6r all info!",
+          "answers": [
+            "Menar dom att du har blivit nekad sjukpenning i siffror eller sjukpenning f\u00f6r att dom inte godk\u00e4nner sj\u00e4lva sjukskrivningen? Det \u00e4r tv\u00e5 olika saker.",
+            "Vad exakt \u00e4r problemet enligt fks brev?",
+            "Sj\u00e4lva sjukskrivningen \u00e4r godk\u00e4nd men de nekar mig ers\u00e4ttning f\u00f6r den.",
+            "Har du jobbat under alla kalenderm\u00e5naderna p\u00e5 \u00e4ldreboendet? Keruben lyser av intelligensens prakt - Giovanni Pico della Mirandola",
+            "F\u00f6rst skriver min handl\u00e4ggare att hon bara har uppgifter p\u00e5 att jag jobbat till februari 2016. Och att den inkomsten \u00e4r skyddad i 3 m\u00e5nader tom juni 2016. S\u00e5 om jag har jobbat mer efter den 1 mars ska jag skicka de intygen till henne. D\u00e5 skickar jag henne mitt arbetsgivaren intyg (igen) d\u00e4r det st\u00e5r att jag jobbat till juni 2016 (inte februari) Sedan g\u00e5r hon tillbaka till 2013 d\u00e5 jag jobbade p\u00e5 Subway och fr\u00e5gar n\u00e4r den anst\u00e4llningen var slut. Den var slut april 2013 svarade jag d\u00e5 och efter det skriver hon att hennes bed\u00f6mning \u00e4r r\u00e4tt och jag har inte r\u00e4tt till n\u00e5gon ers\u00e4ttning f\u00f6r att jag inte har arbetat i 6 m\u00e5nader efter 1 april. F\u00f6rst\u00e5r verkligen inte hur dem resonerar? Efter min sjukskrivning jobbade jag i n\u00e5gra dagar (de dagar som var kvar av mitt schema) sedan hade jag semester och sen flyttade jag till Norge d\u00e4r jag b\u00f6rjade jobba som personlig assistent.",
+            "P\u00e5 \u00e4ldreboende det har jag jobbat varje m\u00e5nad f\u00f6rutom 1. Under 1 \u00e5rs tid",
+            "Du m\u00e5ste skicka in dina l\u00f6nespec f\u00f6r att dom ska kunna r\u00e4kna ut ett snitt hur h\u00f6gt ditt Sgi \u00e4r. Antar att du har jobbat och tj\u00e4nat olika varje m\u00e5nad eftersom du \u00e4r behovsanst\u00e4llnd. Ring handl\u00e4ggaren igen och s\u00e4g att antingen du eller din arbetsgivare skickar in alla l\u00f6nespec s\u00e5 handl\u00e4ggaren har underlag.",
+            "Handl\u00e4ggarn har alla intyg och L\u00f6nespec d\u00f6r det st\u00e5r tydligt vad jag tj\u00e4nat och hur mycket jag jobbat.",
+            "Men det \u00e4r ju ditt sgi-skydd som \u00e4r problemet. G\u00f6r en tydlig lista p\u00e5 syssels\u00e4ttning m\u00e5nad f\u00f6r m\u00e5nad sedan 2013. Du m\u00e5ste visa att du antingen har r\u00e4tt till en ny SGI (arbete minst sex m\u00e5nader) eller skyddat den gamla. Det ska ju framg\u00e5 av brevet vilken period fk anser att du saknar sgi-skydd.",
+            "Jag f\u00e5r ingen f\u00f6rklaring fr\u00e5n f\u00f6rs\u00e4kringskassan, k\u00e4nns som jag pratar med en robot. Jag har ju jobbat \u00e4nd\u00e5 fram till min sjukskrivningen och sedan har jag fortsatt att jobba efter den. S\u00e5 vad kan detta bero p\u00e5 tror ni?"
+          ],
+          "category": "Ekonomi & juridik",
+          "url": "http://www.familjeliv.se/forum/thread/77275563-behover-klarhet-med-vad-som-menas-med-sjukpeninnggrundande-inkomst"
+        }
+      }
+    ]
+  }
+}
