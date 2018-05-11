@@ -25,8 +25,10 @@ SECRET_KEY = '-z%(umkn@++jbqiezw5k1tqesvvy5r$na5u5u^6rsz1ahg%vrk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['localhost:3000/', '127.0.0.1',  'http://localhost:3000/']
+CORS_ORIGIN_WHITELIST = (
+    'localhost:3000'
+)
 
 # Application definition
 
@@ -38,9 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'chatbot',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',

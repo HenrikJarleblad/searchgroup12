@@ -1,0 +1,36 @@
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.chat-wrapper {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, .08);
+  border-radius: 4px;
+  max-width: 450px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  padding-bottom: 0px;
+}
+
+#chat-panel {
+  padding: 0px 10px;
+}
+
+.chat-history {
+  display: block;
+  min-height: 450px;
+}
+
+.message-input {
+  border: none;
+  border-top: 1px solid #ddd;
+  font-size: 16px;
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}

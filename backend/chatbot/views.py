@@ -16,4 +16,4 @@ def answer(request):
 
   print("question")
 
-  return Response({"answer": "first"})
+  return Response({"answer": "Hello, I'm fine, how are you?"})
