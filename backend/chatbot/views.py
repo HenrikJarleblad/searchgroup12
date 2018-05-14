@@ -15,5 +15,7 @@ def answer(request):
   """
 
   print("question")
+  print(request.GET['question'])
+  question = request.GET['question']
 
-  return Response({"answer": "Hello, I'm fine, how are you?"})
+  return Response({"answer": "Was your question: " + request.GET['question'] +  "?"})
