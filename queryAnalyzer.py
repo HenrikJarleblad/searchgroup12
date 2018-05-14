@@ -25,16 +25,23 @@ def getAnswers(query):
             "vår", "blivit", "dess", "inom", "mellan", "sådant", "varför",
             "varje", "vilka", "ditt", "vem", "vilket", "sitta", "sådana",
             "vart", "dina", "vars", "vårt", "våra", "ert", "era", "vilkas",
-            "hej","hallå","tja","tjena","tjenare","dvs","osv","etc","","inkl"]
+            "hej","hallå","tja","tjena","tjenare","dvs","osv","etc","","inkl","få","komma",
+            "kommer"]
 
+    query = strip_punctuation(query)
+    query = query.lower().split(" ")
+    query = [word for word in query if word not in stupidwords]
+    query = ' '.join(query)
+    print(query)
     result = es.search(index="familjeliv", body={"query": {"match": {'question':query}}})
 
 
     interest = result['hits']['hits']
     newquery = query
     for i in range(len(interest) if len(interest) < 5 else 5):
-        #print()
-        newquery = newquery + ' '+interest[i]['_source']['question']
+        score = interest[i]['_score']
+        if(score > 1):
+            newquery = newquery + ' '+interest[i]['_source']['question']
 
 
     newquery = strip_punctuation(newquery)
@@ -48,35 +55,35 @@ def getAnswers(query):
     newquery = query
     final_answers = interest[0]['_source']['answers']
 
-    print(final_answers[0]) #just selects the first answer
-    """for i in range(len(interest) if len(interest) < 5 else 5):
-        print()
-        print(interest[i]['_source']['question'])
-        newquery = newquery + ' '+interest[i]['_source']['question']
-    """
-    list1 = {
-        "size": 0,
-        "aggs" : {
-            "interactions" : {
-                "adjacency_matrix" : {
-                    "filters" : {
+    finalresultarray = finalresult.split(" ")
 
-                    }
-                }
-            }
-        }
-    }
-
-    newquery = strip_punctuation(query)
-    newquery = newquery.lower().split(' ')
-    finalresult = [word for word in newquery if word not in stupidwords]
-
-    #for i in range(len(final_answers)):
-    #    list1['aggs']['interactions']['adjacency_matrix']['filter']['grp'+str(i)] = {
-    #        "terms" : {
-    #            "question" : finalresult,
-    #            
-    #        }
-    #    }
-    return final_answers[0]
+    minHaspmap = {}
+    for word in finalresultarray:
+        if word in minHaspmap:
+            minHaspmap[word] = minHaspmap[word] +1
+        else:
+            minHaspmap[word] = 1
+    
+    for word in query.lower().split(' '):
+        if word not in stupidwords:
+            minHaspmap[word] = minHaspmap[word] + 1000
+    score = -1
+    ans = ""
+    for answer in final_answers:
+        answerlist = answer.lower().split(' ')
+        tempscore = 0
+        relevantwords = 0
+        for word in answerlist:
+            if word in minHaspmap:
+                tempscore = tempscore + minHaspmap[word]
+                relevantwords = relevantwords + 1
+            if "?" in word:
+                tempscore = -999999
+        tempscore = tempscore/len(answerlist)
+        if score < tempscore:
+            ans = answer
+            score = tempscore
+    finalans = {"answer":ans,"confidence":1 if score>=1 else 0}
+    return finalans
 out = getAnswers(query)
+print(out)
