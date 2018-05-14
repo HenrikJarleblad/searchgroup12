@@ -79,4 +79,4 @@ def getAnswers(query):
     #        }
     #    }
     return final_answers[0]
-out = getAnswers(query)
+#out = getAnswers(query)
