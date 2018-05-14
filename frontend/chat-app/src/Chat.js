@@ -47,7 +47,8 @@ class Chat extends Component {
     this.setState({
       is_typing: true
     });
-    fetch('http://127.0.0.1:8000/')
+    console.log(question);
+    fetch('http://127.0.0.1:8000/?question=' + (question))
     .then((response) => {
       return response.json();
     })
