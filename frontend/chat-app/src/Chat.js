@@ -17,7 +17,7 @@ class Chat extends Component {
       messages: [
         new Message({
           id: 1,
-          message: "Hi, I'm FamBot. How can I help you?",
+          message: "Hej, jag är en chatbot indexerad på en delmängd av Familjelivs data. Skriv en fråga så ska jag försöka hjälpa dig.",
           senderName: "FamBot"
         })
       ]
@@ -30,7 +30,13 @@ class Chat extends Component {
 
   handleMessageSubmit(event){
     event.preventDefault();
-    const question = this.state.value
+    const question = this.state.value.trim()
+
+    // do noting if no input
+    if(question.length === 0){
+      return
+    }
+
     const newMessage = new Message({
       id: 0,
       message: question
@@ -41,19 +47,31 @@ class Chat extends Component {
     }));
     this.askChatBot(question);
 
-  }
+    }
 
   askChatBot(question){
     this.setState({
       is_typing: true
     });
-    console.log(question);
+
     fetch('http://127.0.0.1:8000/?question=' + (question))
     .then((response) => {
       return response.json();
     })
     .then((myJson) => {
-      //console.log(myJson.answer);
+
+      if(myJson.confidence === 0){
+
+        const newMessage = new Message({
+          id: 1,
+          message: "Jag är inte riktigt säker men:"
+        });
+
+        this.setState((prevState) => ({
+          messages: [...prevState.messages, newMessage],
+        }));
+
+      }
       const newMessage = new Message({
         id: 1,
         message: myJson.answer
@@ -80,7 +98,7 @@ class Chat extends Component {
         <form onSubmit={this.handleMessageSubmit}>
             <input
               className="message-input"
-              placeholder="What do you want to know?"
+              placeholder="Vad vill du veta?"
               type="text"
               value={this.state.value}
               onChange={this.handleMessageChange}

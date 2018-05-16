@@ -5,7 +5,9 @@ from django.shortcuts import render
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from time import sleep
 import queryAnalyzer
+
 
 
 @api_view(['GET'])
@@ -16,6 +18,12 @@ def answer(request):
   """
 
   question = request.GET['question']
-  answer = queryAnalyzer.getAnswers(question)
+  sleep(0.5)
+  try:
+    answerDic = queryAnalyzer.getAnswers(question)
+    answer = answerDic['answer']
+  except IndexError:
+    answer = "Jag har inget svar på din fråga: " + question
+    answerDic = {"confidence": 1}
 
-  return Response({"answer": answer})
+  return Response({"answer": answer, "confidence": answerDic['confidence']})

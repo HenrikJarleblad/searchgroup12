@@ -109,5 +109,3 @@ def getAnswers(query):
     finalans = {"answer":ans,"confidence":1 if score>=1 else 0} # Signal if good/bad answer
     return finalans
     # ---------------------------
-out = getAnswers(query)
-print(out)
