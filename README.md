@@ -29,4 +29,10 @@ DD2476 Chatbot
     npm install
     npm start
     then view web page at http://localhost:3000/
+
+### Fleiss Kappa
+	Open FleissKappa.m with MATLAB
+	Answers is the relevance assessment of the four group members on the 20 trial questions
+	Run section A) to calculate kappa statistic
+	Run section B) to calculate precision
 	
