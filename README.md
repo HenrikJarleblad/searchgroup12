@@ -1,6 +1,12 @@
 # searchgroup12
 DD2476 Chatbot
 
+### Dependencies
+	ElasticSearch
+	python3
+	node.js
+	REST API client program - eg. POSTMAN
+
 #### ElasticSearch
 	The familjeliv corpus can be imported into ElasticSearch by
 	executing a PUT request at http://localhost:9200/familjeliv/_bulk
