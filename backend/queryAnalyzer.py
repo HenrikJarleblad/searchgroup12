@@ -87,6 +87,10 @@ def getAnswers(query):
     # --------------------------------------
     
     # --- Answer processing ---
+    qmark = True
+    for answer in final_answers:
+      qmark = qmark and "?" in answer
+
     score = -1
     ans = ""
     for answer in final_answers:
@@ -97,7 +101,7 @@ def getAnswers(query):
             if word in minHaspmap:
                 tempscore = tempscore + minHaspmap[word]
                 relevantwords = relevantwords + 1
-            if "?" in word: # Punish question marks
+            if "?" in word and not qmark: # Punish question marks
                 tempscore = -999999
         tempscore = tempscore/len(answerlist) # Normalize score
         if score < tempscore: # Keep track of best answer
